@@ -1,4 +1,4 @@
-# # Vector Database Comparison System 📊
+# Vector Database Comparison System 📊
 
 - [About](#about)
 - [Features](#features)
@@ -7,9 +7,7 @@
 - [Usage](#usage)
 - [API Endpoints](#api-endpoints)
 - [Example Usage](#example-usage)
-- [Dependencies](#dependencies)
-- [Contributing](#contributing)
-- [Acknowledgements](#acknowledgements)
+
 
 ## About
 This project allows you to upload PDF/CSV files, extract text, store them in three different vector databases (Chroma, FAISS, Annoy), and compare their performance in answering user questions.
@@ -51,60 +49,45 @@ P- erformance Comparison: Compare response times and answers from all three vect
 
 
 
-## Usage
+### Usage
 
-1 Running the Application
+1. Running the Application
    ```bash
       streamlit run main.py
 
-2 Upload PDF/CSV Files:
+2. Upload PDF/CSV Files:
 
 - Upload one or more PDF or CSV files containing text data.
 - Adjust chunk size and overlap as needed for text processing.
 
-3 Choose Models:
+3. Choose Models:
 
 - Enter the embedding model (default: models/embedding-001).
 - Enter the completion model (default: gemini-pro).
 - Adjust temperature and top K for question answering.
 
-4 Submit & Process:
+4. Submit & Process:
 
 - Click on the "Submit & Process" button to start vectorization and indexing.
 - Wait for processing to complete.
 
-5 Ask a Question:
+5. Ask a Question:
 
 - Enter a question related to the uploaded documents.
 - The system will display answers and query times from all three vector databases.
 
-## Example Usage
+### Example Usage
 
-- Upload a PDF file using the /upload endpoint.
-- Use the /ask_question endpoint to ask questions about the uploaded PDF file.
+- Here's an example of how to run the system:
 
-## Dependencies
+- Upload example.pdf and data.csv.
+- Set embedding model to models/embedding-001.
+- Set completion model to gemini-pro.
+- Adjust temperature to 0.3 and top K to 5.
+- Click "Submit & Process".
+- Ask a question in the text input field.
+- View answers and response times displayed for Chroma, FAISS, and Annoy.
 
-- Flask
-- Flask-CORS
-- langchain-community
-- pdfminer
-- PyPDF2
-- pdfplumber
-- pytesseract
-- transformers
-- torch
-- easyocr
-- ultralytics
-- pdf2image
-- dotenv
 
-## Acknowledgements
-
-- [LangChain](https://github.com/langchain-ai/langchain)
-- [HuggingFace](https://huggingface.co)
-- [EasyOCR](https://github.com/JaidedAI/EasyOCR)
-- [YOLO](https://github.com/ultralytics/ultralytics)
-- [Flask](https://github.com/pallets/flask)
 
 
