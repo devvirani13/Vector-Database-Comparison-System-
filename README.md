@@ -2,7 +2,7 @@
 
 - [About](#about)
 - [Features](#features)
-- [Documentation and Reporting](#Documentation and Reporting)
+- [Documentation and Reporting](#Documentation-and-Reporting)
 - [Setup Instructions](#setup-instructions)
 - [Usage](#usage)
 - [Example Usage](#example-usage)
