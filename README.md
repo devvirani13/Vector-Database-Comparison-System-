@@ -2,6 +2,7 @@
 
 - [About](#about)
 - [Features](#features)
+- [Documentation and Reporting](#Documentation and Reporting)
 - [Setup Instructions](#setup-instructions)
 - [Usage](#usage)
 - [Example Usage](#example-usage)
@@ -22,7 +23,7 @@ This project allows you to upload PDF/CSV files, extract text, store them in thr
 P- erformance Comparison: Compare response times and answers from all three vector databases.
 
 ## Documentation and Reporting
-- [Documentation and Reporting]()
+- [Documentation and Reporting](https://github.com/devvirani13/Vector-Database-Comparison-System-/blob/main/Documentation%20and%20Reporting.ipynb)
 
 ## Setup Instructions
 
