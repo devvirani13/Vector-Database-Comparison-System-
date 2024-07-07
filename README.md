@@ -3,9 +3,7 @@
 - [About](#about)
 - [Features](#features)
 - [Setup Instructions](#setup-instructions)
-- [Directory Structure](#directory-structure)
 - [Usage](#usage)
-- [API Endpoints](#api-endpoints)
 - [Example Usage](#example-usage)
 
 
